@@ -1,0 +1,66 @@
+body {
+  background-color: #3AAFA9;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#headerTag {
+  display: flex;
+  border-radius: 15px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 45%;
+  padding: .25em;
+  background-color: #2B7A78;
+  color: #FEFFFF;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 24px;
+  border-radius: 15px;
+  background-color: #17252A;
+  padding: .25em;
+}
+
+.links {
+  color: #FEFFFF;
+}
+
+.links:visited {
+  color: #A3B3BA;
+}
+
+.links:hover {
+  color: #0492C2;
+}
+
+.links:active {
+  color: orange;
+}
+
+#main {
+  display:flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.cImg {
+  max-height: 45%;
+  max-width: 100%;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.pText1 {
+  max-height: 65%;
+  font-size: 32px;
+  text-align: center;
+}
+
+.pText2 {
+  max-height: 65%;
+  font-size: 32px;
+  text-align: center;
+}
